@@ -1,4 +1,4 @@
-# Undb0/Msdpodg
+# Msdpodg
 This is a Python application based from Git Actions to produce development actions through Microsoft Graph API like a genuine developer in order to activate Microsoft Office 365  E5 Developer Trail membership auto renewal.
 ### Project description ###
 * Use GitHub action to run api calls automatically at regular intervals to keep E5 development active.
