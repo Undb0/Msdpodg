@@ -54,8 +54,8 @@ jobs:
 
       - name: Commit log
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.USER }}
           git add time.log
           git commit -m "Update log: $(date +'%Y-%m-%d %H:%M')" --allow-empty
           git push
